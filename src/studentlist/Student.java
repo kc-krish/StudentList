@@ -36,4 +36,8 @@ public class Student {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    public void greet() {
+        System.out.println("hello");
+    }
 }
