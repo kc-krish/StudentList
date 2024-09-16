@@ -21,12 +21,19 @@ public class Student {
         this.name = name;
     }
     
-    public String getCourse() {
-    return this.course;
+        public String getStudentID() {
+        return studentID;
+    }
+
+    public void setStudentID(String studentID) {
+        this.studentID = studentID;
     }
     
-    public void setCourse(String course) {
-    this.course = course;
+        public String getAddress() {
+        return address;
     }
-   
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 }
